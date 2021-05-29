@@ -24,7 +24,7 @@ io.on('connection', (socket) => {
     // Welcome current user
     socket.emit(
       'message',
-      formatMessage(botName, 'Welcome to ChatBook! This is a chatting platform developed by Jyotsana.')
+      formatMessage(botName, 'Welcome to ChatBook! A chatting platform developed by Jyotsana.')
     );
     // Notify when a user connects
     socket.broadcast
